@@ -20,5 +20,5 @@ hz is a logical, 1 to visualize the x-axis in Hz, 0 in ERB
 Example: output a two-tiered list of candidate frequencies for spectral fission for 'my_sound.wav'
 >fission_candidates_list('my_sound.wav')
 
-Example: visualize the spectrum and labels the two tiers of candidate frequencies for spectral fission with green stars for the higher tier and red plus for the second, lower tier and the x-axis in ERB
+Example: visualize the spectrum and label the two tiers of candidate frequencies for spectral fission with green stars for the higher tier and red plus for the second, lower tier; set the x-axis in ERB
 >fission_candidates_vis('my_sound.wav',0)
