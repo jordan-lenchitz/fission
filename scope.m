@@ -1,5 +1,6 @@
 function [a,b] = scope(filename, amount)
-%open wav file and get 7324 samples per window
+%overlap-add phase vocoder
+%open audio file and get 7324 samples per window
 [samples, samplerate] = audioread(filename);
 window_seconds = 7324 / samplerate;
 %determine mono/stereo and number of samples
