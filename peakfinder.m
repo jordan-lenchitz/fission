@@ -1,6 +1,6 @@
 function varargout = peakfinder(x0, sel, thresh, extrema, includeEndpoints, interpolate)
-% after Nathaniel C. Yoder, with some minor tweaks
 % noise tolerant fast peak finding algorithm
+% after Nathaniel C. Yoder, with some tweaks
 %   INPUTS:
 %       x0 - A real vector from the maxima will be found
 %       sel - The amount above surrounding data for a peak to be,
