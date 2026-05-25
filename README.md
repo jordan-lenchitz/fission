@@ -24,7 +24,7 @@ python fission.py my_sound.wav --hz    # Visualize with Hz x-axis
 
 ### MATLAB Implementation
 
-Built in MATLAB R2020b; tested up through R2022a.
+tested up through R2026a on apple silicon
 
 Both main scripts (`fission_candidates_list.m` and `fission_candidates_vis.m`) take as input the sound file of any sustained sonority (polyphonic or monophonic). 
 
