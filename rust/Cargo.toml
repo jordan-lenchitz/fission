@@ -1,0 +1,15 @@
+[package]
+name = "fission-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fission_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23.3", features = ["extension-module"] }
+numpy = "0.23.0"
+ndarray = "0.16.1"
+realfft = "3.4.0"
+num-complex = "0.4.6"
